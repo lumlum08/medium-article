@@ -1,0 +1,77 @@
+.banner {
+    background-image: url(https://source.unsplash.com/random/1000x500);
+    background-size: cover;
+    color: white;
+    padding: 120px 0
+}
+
+.banner > h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banner > p {
+  text-align: center;
+  opacity: 0.8;
+  font-size: 30px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+.container {
+  margin: 50px auto;
+  width: 600px;
+  text-align: justify;
+  }
+
+.container h2 {
+  color:  grey;
+  letter-spacing: 2px;
+  font-family: 'Lato', sans-serif;
+
+}
+.container p {
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  background-color: linear-gradient(45deg blue red);
+  text-decoration: none;
+  color: grey;
+  font-size: 20px;
+  font-family: 'Lora', serif;
+}
+
+a:hover {
+  background-color: aquamarine;
+  text-decoration: none;
+  font-style: italic;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
